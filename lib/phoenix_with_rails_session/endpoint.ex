@@ -39,7 +39,7 @@ defmodule PhoenixWithRailsSession.Endpoint do
   #   signing_salt: "QFvz0FDg"
   plug Plug.Session,
     store: PlugSessionRedis.Store,
-    key: "_phoenix_with_rails_session_key",           #
+    key: "_session_id",           #
     table: :redis_sessions       # Can be anything you want, should be same as `:name` config above
 
 

@@ -38,7 +38,7 @@ defmodule PhoenixWithRailsSession.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:plug_session_redis, git: "https://github.com/rinosamakanata/plug_session_redis.git", branch: "feature/add_rack_session_serializer" },
+     {:plug_session_redis, git: "https://github.com/rinosamakanata/plug_session_redis.git", branch: "master" },
      {:ex_marshal, "0.0.7"}]
   end
 
